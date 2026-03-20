@@ -23,7 +23,7 @@ const Navbar = () => {
           <li onClick={() => {
             setMenu('Home')
           }}>
-            <Link to='/home'>Home{menu === "Home" ? <hr className='border-none h-0.5 w-12 bg-red-200 mx-auto mt-1 rounded'  /> : <></>}</Link>
+            <Link to='/'>Home{menu === "Home" ? <hr className='border-none h-0.5 w-12 bg-red-200 mx-auto mt-1 rounded'  /> : <></>}</Link>
           </li>
           <li onClick={() => {
             setMenu('Man')
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li onClick={() => {
             setMenu('Home')
           }}>
-            <Link to='/home' onClick={() => {
+            <Link to='/' onClick={() => {
               setIsOpen(false)
             }}>Home{menu === "Home" ? <hr className='border-none h-0.5 w-12 bg-red-400 mx-auto mt-1 rounded'  /> : <></>}</Link>
           </li>
