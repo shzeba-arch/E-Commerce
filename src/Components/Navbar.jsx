@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { FaSearch , FaHeart , FaShoppingCart, FaUser } from 'react-icons/fa'
-import NavLogo from '../assets/navLogo.png'
-import navOpen from '../assets/nav_open_img.png';
-import navClose from '../assets/nav_close_img.png'
+import NavLogo from '../../public/assets/navLogo.png'
+import navOpen from '../../public/assets/nav_open_img.png';
+import navClose from '../../public/assets/nav_close_img.png'
 
 
 const Navbar = () => {
